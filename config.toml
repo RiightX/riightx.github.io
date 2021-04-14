@@ -1,4 +1,4 @@
-baseURL = "http://riightx.github.io/"
+baseURL = "https://riightx.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
