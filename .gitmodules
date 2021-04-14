@@ -1,0 +1,3 @@
+[submodule "themes/npq"]
+	path = themes/npq
+	url = git@github.com:saadrushd/npq-hugo.git

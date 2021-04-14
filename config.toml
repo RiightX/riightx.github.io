@@ -1,0 +1,8 @@
+baseURL = "http://riightx.github.io/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+theme = "npq"
+
+[params]
+css = ["css/style.css"]
