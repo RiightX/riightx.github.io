@@ -9,7 +9,4 @@ text 123
 
 <iframe src="https://keystone.guru/oAOhtux/embed" style="width: 800px; height: 600px; border: none;"></iframe>
 
-<iframe src="https://player.twitch.tv/?channel=yumytv&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
-
 text below 123
-

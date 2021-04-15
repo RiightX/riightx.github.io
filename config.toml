@@ -2,4 +2,10 @@ baseURL = "https://riightx.github.io/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
-theme = "ananke"
+theme = "npq"
+
+# [params]
+#  css = ["css/style.css"]
+
+[markup.goldmark.renderer]
+unsafe= true
