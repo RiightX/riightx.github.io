@@ -1,0 +1,16 @@
+{{ if in .Params.wowhead "yes"}}
+<script>var whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
+<script src="//wow.zamimg.com/widgets/power.js"></script>
+{{end}}
+
+{{ if not .Site.IsServer }}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WW2Y97B0SF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WW2Y97B0SF');
+</script>
+{{ end }}
