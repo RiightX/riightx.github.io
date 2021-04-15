@@ -57,7 +57,7 @@ PygmentsStyle = "monokai"
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = ""
+  homeSubtitle = "Check out the posts above for some mediocre WoW info"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
