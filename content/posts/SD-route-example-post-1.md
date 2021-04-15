@@ -5,7 +5,6 @@ draft: false
 slug:
 wowhead: "yes"
 tags: ["wow","fun","MDT route","first"]
-pinned: true
 ---
 
 text 123
