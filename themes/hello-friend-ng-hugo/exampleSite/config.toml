@@ -1,7 +1,17 @@
-baseURL = "https://riightx.github.io/"
+baseURL = "https://example.com"
+title   = "Hello Friend NG"
 languageCode = "en-us"
-title = "Riight WoW pages"
-theme = "hello-friend-ng-hugo"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -23,17 +33,11 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[markup.goldmark.renderer]
-unsafe = true
-
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Riight"
+  name = "Jane Doe"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -84,7 +88,7 @@ PygmentsStyle = "monokai"
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = false
+  enableSharingButtons = true
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -128,8 +132,8 @@ PygmentsStyle = "monokai"
   # A better internet.
   # Uncomment this to enable Commento.
   #
-    [params.commento]
-      url = "https://cdn.commento.io"
+  # [params.commento]
+  #   url = ""
 
   # Uncomment this if you want a portrait on your start page
   #
@@ -139,25 +143,25 @@ PygmentsStyle = "monokai"
   #   maxWidth = "50px"
 
   # Social icons
-#  [[params.social]]
-#    name = "twitter"
-#    url  = "https://twitter.com/"
-#
-#  [[params.social]]
-#    name = "email"
-#    url  = "mailto:nobody@example.com"
-#
-#  [[params.social]]
-#    name = "github"
-#    url  = "https://github.com/"
-#
-#  [[params.social]]
-#    name = "linkedin"
-#    url  = "https://www.linkedin.com/"
-#
-#  [[params.social]]
-#    name = "stackoverflow"
-#    url  = "https://www.stackoverflow.com/"
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:nobody@example.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
