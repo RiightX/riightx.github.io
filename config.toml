@@ -10,46 +10,23 @@ unsafe = true
 [params]
 custom_css = ["css/style.css"]
 
-### nqd ###   author = "your name"
-### nqd ###   description = "your description"
-### nqd ###   keywords = "hugo blog"
-### nqd ###   useAvatar = true
-### nqd ###   microBlogSection = "posts"
-### nqd ###   displayMicroBlog = true
-### nqd ###   displayRecent = true
-### nqd ###   recentMax = 4
-### nqd ###   mail = "mail@example.com"
-### nqd ###   phone = "8888888888"
-### nqd ###   formspreeID = "yourformspreeID"
-### nqd ### 
-### nqd ### [menu]
-### nqd ###   [[menu.main]]
-### nqd ###     name = "home"
-### nqd ###     pre = "<i class=\"fas fa-home fa-sm\"></i>"
-### nqd ###     url = "/"
-### nqd ###     weight = -9 
-### nqd ###   [[menu.main]]
-### nqd ###     name = "blog"
-### nqd ###     pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
-### nqd ###     url = "/blog/"
-### nqd ###     weight = -8
-### nqd ###  [[menu.main]]
-### nqd ###    name = "tags"
-### nqd ###    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
-### nqd ###    url = "/tags"
-### nqd ###    weight = -7 
-### nqd ###   [[menu.main]]
-### nqd ###     name = "github"
-### nqd ###     pre = "<i class=\"fab fa-github fa-ms\"></i>"
-### nqd ###     url = "https://github.com/yourgithubusername23434"
-### nqd ###     weight = -6 
-### nqd ###   [[menu.main]]
-### nqd ###     name = "RSS"
-### nqd ###     pre = "<i class=\"fas fa-rss fa-ms\"></i>"
-### nqd ###     url = "/index.xml"
-### nqd ###     weight = -4 
-### nqd ###   [[menu.main]]
-### nqd ###     name = "contact"
-### nqd ###     pre = "<i class=\"far fa-envelope\"></i>"
-### nqd ###     url = "/contact"
-### nqd ###     weight = -1 
+    author = "Riight"
+    description = "your description"
+    keywords = "World of Warcraft healing microsite"
+    useAvatar = false
+    microBlogSection = "posts"
+    displayMicroBlog = true
+    displayRecent = true
+    recentMax = 4
+
+[menu]
+    [[menu.main]]
+      name = "home"
+      pre = "<i class=\"fas fa-home fa-sm\"></i>"
+      url = "/"
+      weight = -9
+    [[menu.main]]
+      name = "tags"
+      pre = "<i class=\"fas fa-tags fa-ms\"></i>"
+      url = "/tags"
+      weight = -7
