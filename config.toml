@@ -1,6 +1,6 @@
 baseURL = "https://riightx.github.io/"
 languageCode = "en-us"
-title = "Riight WoW pages"
+title = "Riight's WoW pages"
 theme = "hello-friend-ng-hugo"
 
 archetypeDir = "archetypes"
@@ -15,7 +15,7 @@ buildExpired = false
 canonifyURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false
@@ -57,14 +57,14 @@ PygmentsStyle = "monokai"
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = ""
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
-  # gitUrl = ""
+    gitUrl = "https://github.com/RiightX/riightx.github.io/commit/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
@@ -111,14 +111,14 @@ PygmentsStyle = "monokai"
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "heal me"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
+     logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9"
+     logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
+     logoCursorAnimate  = "5s"
 
   # Commento is more than just a comments widget you can embed — 
   # it’s a return to the roots of the internet. 
