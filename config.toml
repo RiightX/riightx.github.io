@@ -129,7 +129,7 @@ PygmentsStyle = "monokai"
   # Uncomment this to enable Commento.
   #
     [params.commento]
-      url = "https://cdn.commento.io"
+      url = ""
 
   # Uncomment this if you want a portrait on your start page
   #
